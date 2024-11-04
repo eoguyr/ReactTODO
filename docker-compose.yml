@@ -1,5 +1,5 @@
 version: '3'
-    services:
+services:
   web:
     image: node:14
     working_dir: /app
@@ -8,4 +8,3 @@ version: '3'
     ports:
       - "3000:3000"
     command: sh -c "npm install && npm start"
-
