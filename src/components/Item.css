@@ -1,0 +1,29 @@
+.Item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.Item input {
+    width: 20px;
+}
+
+.Item .content {
+    flex: 1;
+}
+
+.Item .date {
+    font-size: 14px;
+    color: grey;
+}
+
+.Item button {
+    cursor: pointer;
+    color: gray;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
